@@ -1,0 +1,10 @@
+* Components
+** Drive "Open File" handler.
+*** Pass the file to PDF.js. if not possible, download the file in remote server and render it from disk
+**** Verify if webContentLink is possible.
+**** Verify if pdf.js can display from webContentLink
+** PDF.js interceptor
+*** Before PDF.js loads view history, populate localStorage with downloaded entry
+*** After PDF.js saves view history, upload view history into remote server
+** Remote String storage
+*** Tentatively, use drive. maybe a special file. 
